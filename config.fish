@@ -14,8 +14,6 @@ function new --description 'new <func> <command>  add new alias to fish shell'
             echo "$ARG1 => $ARG2"
         case '*'
             echo Two args are requeired.
-            echo count $argv
-            # eccho $argv
     end
 end
 

@@ -1,6 +1,7 @@
 set configFile ~/.config/fish/config.fish
-alias newfish="vim $configFile"
-alias g++='g++-6' #for mac
+alias newfish="e $configFile"
+alias g++='g++-7' #for mac
+alias e="sublime"
 alias l="ls"
 function new --description 'new <func> <command>  add new alias to fish shell'
     switch (count $argv)
